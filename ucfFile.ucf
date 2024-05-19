@@ -1,0 +1,22 @@
+NET "sw<0>" LOC="T10";
+NET "sw<1>" LOC="T9";
+NET "sw<2>" LOC="V9";
+NET "sw<3>" LOC="M8";
+
+NET "seg_out<0>" LOC="L14";
+NET "seg_out<1>" LOC="N14";
+NET "seg_out<2>" LOC="M14";
+NET "seg_out<3>" LOC="U18";
+NET "seg_out<4>" LOC="U17";
+NET "seg_out<5>" LOC="T18";
+NET "seg_out<6>" LOC="T17";
+NET "an<0>" LOC="N16";
+NET "an<1>" LOC="N15";
+NET "an<2>" LOC="P18";
+NET "an<3>" LOC="P17";
+NET "clk_seg" LOC ="V10";
+NET "clk_pr" LOC ="A8";
+
+NET "rst" LOC="V8";
+NET "clk_pr" CLOCK_DEDICATED_ROUTE =FALSE;
+NET "rst" CLOCK_DEDICATED_ROUTE =FALSE;
